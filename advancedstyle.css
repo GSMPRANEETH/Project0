@@ -1,0 +1,112 @@
+html{
+    margin-top: 250px;
+}
+body {
+    margin-top: 200px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: normal;
+    color: #c44a4a;
+    margin-bottom: 20px; 
+}
+
+form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0; /
+}
+
+.all {
+    display: flex;
+    margin-bottom: 20px; 
+}
+
+.ltext {
+
+    margin-right: 50px;
+    font-size: 14px;
+    color: #5f6368;
+    margin-bottom: 30px; 
+
+}
+.ltext p{
+    margin-bottom: 20px;
+}
+
+.fields {
+    flex: 2;
+    margin-bottom: 20px; 
+}
+
+.fields input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 30px; 
+    box-sizing: border-box;
+    border: 1px solid #dcdfe1;
+    border-radius: 4px;
+}
+.asb {
+    text-align: end;
+    margin-top: 20px; 
+    
+}
+
+.topRight {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.topRight a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topRight a:hover {
+    color: #357ae8;
+}
+
+.fields input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.advanced-search-container {
+    display: flex;
+    justify-content:center;
+    margin-left: 220px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #357ae8;
+}
