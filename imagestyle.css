@@ -10,16 +10,21 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .topRight a:hover{
-    color: #357ae8
+    color: #357ae8;
+    text-decoration: underline;
 }
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f8f8f8;
+}
+.main{
+    margin-top: 300px;
+    text-align: center;
+}
+.main img{
+    margin-bottom: 20px;
 }
 form {
     text-align: center;
